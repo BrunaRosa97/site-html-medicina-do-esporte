@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicina do Esporte</title>
+    <link rel="stylesheet" href="base.css">
+    <style type="text/css">
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+    </style> 
+</head>
+<body >
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/paginaPrincipal.html" target="self">Medicina do Esporte</a></li>
+                <li><a href="http://127.0.0.1:5500/sobreClinica.html" target="self">Sobre a Clínica</a></li>
+                <li><a href="http://127.0.0.1:5500/horario.html" target="self">Horários de atendimento</a></li>
+                <li><a href="http://127.0.0.1:5500/contato.html" target="self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/Fale_Conosco.png" width="1000" height="250" />
+            </div>
+    
+            <div class="content">
+                <h1>Contato</h1>
+                 <ul>
+                    <li>Telefone de contato: (11)3233-1200 </li>
+                    <li>WhatsApp: (11)98756-1236</li>
+                    <li>Endereço: Rua Mogiguaçu, 315, Mansour - Campinas - CEP: 32560-899, Brasil</li>
+                 </ul>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.5753490785983!2d-48.34291031905375!3d-18.934251070775073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a443a80c2d0505%3A0x8f50c9cdc3c7ff70!2sMansour%2C%20Uberl%C3%A2ndia%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1700181338381!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <fieldset>
+                 <form onsubmit="" method="get">
+                    <label>Nome:</label><input type="text" name="name"/><br>
+                    <label>Email:</label><input type="email" name="email"/><br>
+                    <label>Assunto:</label><input type="text" name="assunto"/><br>
+                    <label>Mensagem:</label>
+                    <textarea name="message"></textarea>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                 </form>
+            </fieldset>
+
+               
+               
+            </div>
+    
+            <div class="footer">
+                <h3> Para mais informações</h3>
+                <ul>
+                    <li>Telefone de contato: (11)3233-1200 </li>
+                    <li>WhatsApp: (11)98756-1236</li>
+                    <li>Email para contato: medicinadoesporte@medicina.org</li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
